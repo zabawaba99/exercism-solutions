@@ -5,3 +5,10 @@
 */*.iml
 */*.ipr
 */*.iws
+
+# eclipse
+
+*/.classpath
+*/.project
+*/.settings
+*/bin
