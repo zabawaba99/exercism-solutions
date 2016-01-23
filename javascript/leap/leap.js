@@ -1,5 +1,5 @@
-var Leap = function(year) {
-	this.year = year
+function Leap(year) {
+	this.year = year;
 };
 
 Leap.prototype.isLeap = function() {
@@ -11,7 +11,7 @@ Leap.prototype.isLeap = function() {
 		return false;
 	}
 
-	return true
+	return true;
 }
 
-module.exports = Leap
+module.exports = Leap;
